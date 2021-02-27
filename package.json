@@ -15,5 +15,29 @@
   "devDependencies": {
     "@types/node": "^14.14.31",
     "@types/ws": "^7.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Forbidden-Duck/plex-websocket.git"
+  },
+  "homepage": "https://github.com/Forbidden-Duck/plex-websocket",
+  "bugs": {
+    "url": "https://github.com/Forbidden-Duck/plex-websocket/issues"
+  },
+  "keywords": [
+    "plex",
+    "media",
+    "server",
+    "api",
+    "websocket",
+    "ws",
+    "plex-api",
+    "node-plex-api",
+    ".js",
+    ".ts",
+    "js",
+    "ts",
+    "javascript",
+    "typescript"
+  ]
 }
