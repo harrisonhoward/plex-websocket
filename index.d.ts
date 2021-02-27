@@ -52,4 +52,7 @@ declare namespace PlexWebsocket {
         init(): Websocket;
         on: ClientEvents<this>;
     }
+    export { PlexAPI } from "plex-api";
 }
+
+export = PlexWebsocket;
