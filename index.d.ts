@@ -28,9 +28,9 @@ declare namespace PlexWebsocket {
     }
 
     interface ClientEvents<T> {
-        (event: "connect", listener: () => void): T;
-        (event: "error", listener: () => void): T;
-        (event: "debug", listener: () => void): T;
+        (event: "connect", listener: (id: string) => void): T;
+        (event: "error", listener: (err: Error, id: string) => void): T;
+        (event: "debug", listener: (message: string, id: string) => void): T;
     }
 
     export class WebsocketClient {
