@@ -1,0 +1,19 @@
+{
+  "name": "plex-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "author": "Duck#9999",
+  "license": "MIT",
+  "scripts": {
+    "test": "node example/watchSessions.js"
+  },
+  "dependencies": {
+    "plex-api": "^5.3.1",
+    "ws": "^7.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/ws": "^7.4.0"
+  }
+}

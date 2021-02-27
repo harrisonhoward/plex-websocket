@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "baseUrl": "",
+        "target": "ES5",
+        "module": "CommonJS",
+        "strict": true,
+        "allowJs": true,
+        "checkJs": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "Node",
+        "lib": [
+            "ES6",
+            "ES5"
+        ],
+        "paths": {
+            "*": [
+                "*",
+                "./@types/*"
+            ]
+        }
+    },
+    "files": [
+        "index.d.ts"
+    ]
+}
