@@ -1,7 +1,8 @@
 Read [Github](https://github.com/Forbidden-Duck/plex-websocket) README, in case of unpublished changes
 # Plex-Websocket
 A tool to allow JavaScript and Typescript users to aquire the full power of [plex-api](https://github.com/phillipj/node-plex-api) with Websockets\
-**YOU DO NOT NEED TO INSTALL [plex-api](https://github.com/phillipj/node-plex-api) IT COMES WITH THE MODULE**
+**YOU DO NOT NEED TO INSTALL [plex-api](https://github.com/phillipj/node-plex-api) IT COMES WITH THE MODULE**\
+*Please note that plex-api has no type declarations so installing it might be better*
 ```
 npm install plex-websocket
 ```
