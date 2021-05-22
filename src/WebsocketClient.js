@@ -32,12 +32,12 @@ module.exports = class WebsocketClient {
             throw new TypeError("WebsocketClient : PLEXINSTANCE must be an instance of PlexAPI");
         }
         if (typeof onPacket !== "function") {
-            throw new TypeError("Websocket Client : ONPACKET must be a function");
+            throw new TypeError("WebsocketClient : ONPACKET must be a function");
         }
         /**
          * @type {(type: types, data: object) => void}
          */
-        this.onPacket = onPacket.bind(this);
+        this.onPacket = onPacket;
         /**
          * @type {Websocket}
          */
